@@ -1,0 +1,888 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-skip', 'depthai_examples', '--executor', 'sequential', '--parallel-workers', '1']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=['depthai_examples'], packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b8a5bba1940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b8a5bba1670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b8a5bba1670>>, mixin_verb=('build',))
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.083s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raju/igv'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[0.110s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ros'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['cmake', 'python']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'cmake'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['python_setup_py']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python_setup_py'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_examples' with type 'ros.ament_cmake' and name 'depthai_examples'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/igv' with type 'ros.ament_python' and name 'igv'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/igv_bringup' with type 'ros.ament_cmake' and name 'igv_bringup'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/igv_description' with type 'ros.ament_cmake' and name 'igv_description'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.132s] INFO:colcon.colcon_core.package_selection:Skipping package 'depthai_examples' in 'src/depthai-ros/depthai_examples'
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.133s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/raju/hs_ws/install
+[0.133s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/raju/igv_ws/install
+[0.134s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/jazzy
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.156s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'depthai_bridge' is in: /opt/ros/jazzy
+	'depthai_ros_msgs' is in: /opt/ros/jazzy
+	'depthai_descriptions' is in: /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding depthai_bridge depthai_descriptions depthai_ros_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_descriptions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/depthai_descriptions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/depthai_descriptions', 'merge_install': False, 'path': '/home/raju/igv/src/depthai-ros/depthai_descriptions', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/depthai_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/depthai_ros_msgs', 'merge_install': False, 'path': '/home/raju/igv/src/depthai-ros/depthai_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'igv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/igv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/igv', 'merge_install': False, 'path': '/home/raju/igv/src/igv', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'igv_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/igv_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/igv_bringup', 'merge_install': False, 'path': '/home/raju/igv/src/igv_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'igv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'igv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/igv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/igv_description', 'merge_install': False, 'path': '/home/raju/igv/src/igv_description', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/raju/igv/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/raju/igv/src/YDLidar-SDK', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/depthai_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/depthai_bridge', 'merge_install': False, 'path': '/home/raju/igv/src/depthai-ros/depthai_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/depthai_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/depthai_filters', 'merge_install': False, 'path': '/home/raju/igv/src/depthai-ros/depthai_filters', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/depthai_ros_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/depthai_ros_driver', 'merge_install': False, 'path': '/home/raju/igv/src/depthai-ros/depthai_ros_driver', 'symlink_install': False, 'test_result_base': None}
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.159s] DEBUG:colcon.colcon_core.verb:Building package 'depthai-ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/depthai-ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/depthai-ros', 'merge_install': False, 'path': '/home/raju/igv/src/depthai-ros/depthai-ros', 'symlink_install': False, 'test_result_base': None}
+[0.159s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.159s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_descriptions'
+[0.160s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/depthai-ros/depthai_descriptions' with build type 'ament_cmake'
+[0.160s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/depthai-ros/depthai_descriptions'
+[0.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_descriptions
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_descriptions
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/depthai_descriptions -- -j12 -l12
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/depthai_descriptions -- -j12 -l12
+[0.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/depthai_descriptions
+[0.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/depthai_descriptions
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions' for CMake module files
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions' for CMake config files
+[0.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions/bin'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions/lib/python3.12/site-packages'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions/bin'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[0.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[0.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions' for CMake module files
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions' for CMake config files
+[0.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions/bin'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions/lib/python3.12/site-packages'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_descriptions/bin'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[0.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[0.772s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_descriptions' finished with '0'
+[0.772s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_ros_msgs'
+[0.772s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/depthai-ros/depthai_ros_msgs' with build type 'ament_cmake'
+[0.772s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/depthai-ros/depthai_ros_msgs'
+[0.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_ros_msgs
+[3.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_ros_msgs
+[3.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/depthai_ros_msgs -- -j12 -l12
+[8.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/depthai_ros_msgs -- -j12 -l12
+[8.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/depthai_ros_msgs
+[8.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[8.788s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs' for CMake module files
+[8.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/depthai_ros_msgs
+[8.788s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs' for CMake config files
+[8.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[8.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[8.789s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/lib'
+[8.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[8.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[8.790s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/bin'
+[8.790s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[8.790s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages'
+[8.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'pythonpath')
+[8.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.ps1'
+[8.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.dsv'
+[8.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.sh'
+[8.791s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/bin'
+[8.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[8.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[8.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[8.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[8.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[8.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[8.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[8.793s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs' for CMake module files
+[8.793s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs' for CMake config files
+[8.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[8.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[8.794s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/lib'
+[8.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[8.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[8.794s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/bin'
+[8.794s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[8.795s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages'
+[8.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'pythonpath')
+[8.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.ps1'
+[8.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.dsv'
+[8.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.sh'
+[8.795s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_msgs/bin'
+[8.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[8.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[8.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[8.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[8.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[8.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[8.797s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_ros_msgs' finished with '0'
+[8.797s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'igv'
+[8.797s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raju/igv/src/igv' with build type 'ament_python'
+[8.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('igv', 'ament_prefix_path')
+[8.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv/share/igv/hook/ament_prefix_path.ps1'
+[8.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/igv/share/igv/hook/ament_prefix_path.dsv'
+[8.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv/share/igv/hook/ament_prefix_path.sh'
+[8.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.926s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raju/igv/src/igv'
+[8.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/src/igv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/build/igv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raju/igv/install/igv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/igv build --build-base /home/raju/igv/build/igv/build install --record /home/raju/igv/build/igv/install.log --single-version-externally-managed install_data
+[9.566s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv' for CMake module files
+[9.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/src/igv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/build/igv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raju/igv/install/igv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/igv build --build-base /home/raju/igv/build/igv/build install --record /home/raju/igv/build/igv/install.log --single-version-externally-managed install_data
+[9.567s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv' for CMake config files
+[9.567s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv/lib'
+[9.567s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv/bin'
+[9.567s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv/lib/pkgconfig/igv.pc'
+[9.567s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv/lib/python3.12/site-packages'
+[9.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('igv', 'pythonpath')
+[9.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv/share/igv/hook/pythonpath.ps1'
+[9.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/igv/share/igv/hook/pythonpath.dsv'
+[9.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv/share/igv/hook/pythonpath.sh'
+[9.568s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv/bin'
+[9.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(igv)
+[9.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv/share/igv/package.ps1'
+[9.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/igv/share/igv/package.dsv'
+[9.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv/share/igv/package.sh'
+[9.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv/share/igv/package.bash'
+[9.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv/share/igv/package.zsh'
+[9.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/igv/share/colcon-core/packages/igv)
+[9.570s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'igv' finished with '0'
+[9.570s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'igv_bringup'
+[9.570s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/igv_bringup' with build type 'ament_cmake'
+[9.570s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/igv_bringup'
+[9.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/igv_bringup -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/igv_bringup
+[10.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/igv_bringup -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/igv_bringup
+[10.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/igv_bringup -- -j12 -l12
+[10.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/igv_bringup -- -j12 -l12
+[10.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/igv_bringup
+[10.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(igv_bringup)
+[10.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/igv_bringup
+[10.140s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup' for CMake module files
+[10.141s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup' for CMake config files
+[10.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('igv_bringup', 'cmake_prefix_path')
+[10.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.ps1'
+[10.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.dsv'
+[10.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.sh'
+[10.142s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/bin'
+[10.142s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/lib/pkgconfig/igv_bringup.pc'
+[10.142s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/lib/python3.12/site-packages'
+[10.142s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/bin'
+[10.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.ps1'
+[10.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.dsv'
+[10.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.sh'
+[10.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.bash'
+[10.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.zsh'
+[10.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/igv_bringup/share/colcon-core/packages/igv_bringup)
+[10.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(igv_bringup)
+[10.143s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup' for CMake module files
+[10.143s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup' for CMake config files
+[10.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('igv_bringup', 'cmake_prefix_path')
+[10.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.ps1'
+[10.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.dsv'
+[10.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.sh'
+[10.144s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/bin'
+[10.144s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/lib/pkgconfig/igv_bringup.pc'
+[10.145s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/lib/python3.12/site-packages'
+[10.145s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/bin'
+[10.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.ps1'
+[10.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.dsv'
+[10.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.sh'
+[10.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.bash'
+[10.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.zsh'
+[10.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/igv_bringup/share/colcon-core/packages/igv_bringup)
+[10.146s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'igv_bringup' finished with '0'
+[10.146s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'igv_description'
+[10.146s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/igv_description' with build type 'ament_cmake'
+[10.146s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/igv_description'
+[10.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/igv_description -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/igv_description
+[10.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/igv_description -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/igv_description
+[10.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/igv_description -- -j12 -l12
+[10.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/igv_description -- -j12 -l12
+[10.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/igv_description
+[10.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(igv_description)
+[10.688s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description' for CMake module files
+[10.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/igv_description
+[10.688s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description' for CMake config files
+[10.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('igv_description', 'cmake_prefix_path')
+[10.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_description/share/igv_description/hook/cmake_prefix_path.ps1'
+[10.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/igv_description/share/igv_description/hook/cmake_prefix_path.dsv'
+[10.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_description/share/igv_description/hook/cmake_prefix_path.sh'
+[10.689s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description/bin'
+[10.689s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description/lib/pkgconfig/igv_description.pc'
+[10.689s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description/lib/python3.12/site-packages'
+[10.689s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description/bin'
+[10.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_description/share/igv_description/package.ps1'
+[10.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/igv_description/share/igv_description/package.dsv'
+[10.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_description/share/igv_description/package.sh'
+[10.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_description/share/igv_description/package.bash'
+[10.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_description/share/igv_description/package.zsh'
+[10.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/igv_description/share/colcon-core/packages/igv_description)
+[10.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(igv_description)
+[10.691s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description' for CMake module files
+[10.691s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description' for CMake config files
+[10.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('igv_description', 'cmake_prefix_path')
+[10.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_description/share/igv_description/hook/cmake_prefix_path.ps1'
+[10.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/igv_description/share/igv_description/hook/cmake_prefix_path.dsv'
+[10.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_description/share/igv_description/hook/cmake_prefix_path.sh'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description/bin'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description/lib/pkgconfig/igv_description.pc'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description/lib/python3.12/site-packages'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_description/bin'
+[10.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_description/share/igv_description/package.ps1'
+[10.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/igv_description/share/igv_description/package.dsv'
+[10.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_description/share/igv_description/package.sh'
+[10.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_description/share/igv_description/package.bash'
+[10.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_description/share/igv_description/package.zsh'
+[10.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/igv_description/share/colcon-core/packages/igv_description)
+[10.693s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'igv_description' finished with '0'
+[10.693s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ydlidar_ros2_driver'
+[10.693s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[10.693s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/ydlidar_ros2_driver'
+[10.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/ydlidar_ros2_driver
+[11.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/ydlidar_ros2_driver
+[11.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/ydlidar_ros2_driver -- -j12 -l12
+[16.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/ydlidar_ros2_driver -- -j12 -l12
+[16.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/ydlidar_ros2_driver
+[16.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[16.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/ydlidar_ros2_driver
+[16.240s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver' for CMake module files
+[16.241s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver' for CMake config files
+[16.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[16.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[16.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[16.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[16.243s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/lib'
+[16.243s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/bin'
+[16.243s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[16.243s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/lib/python3.12/site-packages'
+[16.243s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/bin'
+[16.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[16.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[16.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[16.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[16.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[16.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[16.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[16.244s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver' for CMake module files
+[16.245s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver' for CMake config files
+[16.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[16.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[16.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[16.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[16.246s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/lib'
+[16.246s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/bin'
+[16.246s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[16.246s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/lib/python3.12/site-packages'
+[16.246s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_ros2_driver/bin'
+[16.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[16.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[16.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[16.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[16.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[16.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[16.247s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ydlidar_ros2_driver' finished with '0'
+[16.248s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ydlidar_sdk'
+[16.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/YDLidar-SDK'
+[16.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/ydlidar_sdk
+[16.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/ydlidar_sdk
+[16.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/ydlidar_sdk -- -j12 -l12
+[19.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/ydlidar_sdk -- -j12 -l12
+[19.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/ydlidar_sdk
+[19.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[19.247s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_sdk' for CMake module files
+[19.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/ydlidar_sdk
+[19.248s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_sdk' for CMake config files
+[19.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[19.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[19.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[19.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[19.249s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_sdk/lib'
+[19.249s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_sdk/bin'
+[19.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[19.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[19.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[19.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[19.250s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[19.250s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_sdk/lib/python3.12/site-packages'
+[19.250s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/ydlidar_sdk/bin'
+[19.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[19.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[19.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[19.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[19.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[19.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[19.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[19.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[19.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[19.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[19.252s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ydlidar_sdk' finished with '0'
+[19.252s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_bridge'
+[19.252s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/depthai-ros/depthai_bridge' with build type 'ament_cmake'
+[19.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/depthai-ros/depthai_bridge'
+[19.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_bridge': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_bridge -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_bridge
+[20.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_bridge -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_bridge
+[20.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_bridge': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_bridge -- -j12 -l12
+[29.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_bridge -- -j12 -l12
+[29.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_bridge': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_bridge
+[29.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_bridge)
+[29.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_bridge
+[29.737s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge' for CMake module files
+[29.737s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge' for CMake config files
+[29.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'cmake_prefix_path')
+[29.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.ps1'
+[29.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.dsv'
+[29.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.sh'
+[29.738s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/lib'
+[29.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'ld_library_path_lib')
+[29.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.ps1'
+[29.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.dsv'
+[29.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.sh'
+[29.739s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/bin'
+[29.739s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/lib/pkgconfig/depthai_bridge.pc'
+[29.739s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/lib/python3.12/site-packages'
+[29.739s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/bin'
+[29.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.ps1'
+[29.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.dsv'
+[29.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.sh'
+[29.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.bash'
+[29.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.zsh'
+[29.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_bridge/share/colcon-core/packages/depthai_bridge)
+[29.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_bridge)
+[29.740s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge' for CMake module files
+[29.741s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge' for CMake config files
+[29.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'cmake_prefix_path')
+[29.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.ps1'
+[29.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.dsv'
+[29.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.sh'
+[29.742s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/lib'
+[29.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'ld_library_path_lib')
+[29.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.ps1'
+[29.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.dsv'
+[29.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.sh'
+[29.742s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/bin'
+[29.742s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/lib/pkgconfig/depthai_bridge.pc'
+[29.742s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/lib/python3.12/site-packages'
+[29.743s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_bridge/bin'
+[29.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.ps1'
+[29.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.dsv'
+[29.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.sh'
+[29.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.bash'
+[29.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_bridge/share/depthai_bridge/package.zsh'
+[29.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_bridge/share/colcon-core/packages/depthai_bridge)
+[29.744s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_bridge' finished with '0'
+[29.744s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_filters'
+[29.744s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/depthai-ros/depthai_filters' with build type 'ament_cmake'
+[29.744s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/depthai-ros/depthai_filters'
+[29.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_filters': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_filters -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_filters
+[30.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_filters -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_filters
+[30.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_filters': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_filters -- -j12 -l12
+[48.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_filters -- -j12 -l12
+[48.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_filters': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_filters
+[48.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_filters)
+[48.558s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters' for CMake module files
+[48.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_filters
+[48.559s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters' for CMake config files
+[48.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'cmake_prefix_path')
+[48.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.ps1'
+[48.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.dsv'
+[48.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.sh'
+[48.560s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/lib'
+[48.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'ld_library_path_lib')
+[48.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.ps1'
+[48.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.dsv'
+[48.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.sh'
+[48.560s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/bin'
+[48.560s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/lib/pkgconfig/depthai_filters.pc'
+[48.560s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/lib/python3.12/site-packages'
+[48.561s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/bin'
+[48.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.ps1'
+[48.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.dsv'
+[48.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.sh'
+[48.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.bash'
+[48.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.zsh'
+[48.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_filters/share/colcon-core/packages/depthai_filters)
+[48.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_filters)
+[48.562s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters' for CMake module files
+[48.562s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters' for CMake config files
+[48.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'cmake_prefix_path')
+[48.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.ps1'
+[48.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.dsv'
+[48.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.sh'
+[48.563s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/lib'
+[48.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'ld_library_path_lib')
+[48.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.ps1'
+[48.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.dsv'
+[48.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.sh'
+[48.564s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/bin'
+[48.564s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/lib/pkgconfig/depthai_filters.pc'
+[48.564s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/lib/python3.12/site-packages'
+[48.564s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_filters/bin'
+[48.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.ps1'
+[48.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.dsv'
+[48.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.sh'
+[48.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.bash'
+[48.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_filters/share/depthai_filters/package.zsh'
+[48.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_filters/share/colcon-core/packages/depthai_filters)
+[48.566s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_filters' finished with '0'
+[48.566s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_ros_driver'
+[48.566s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/depthai-ros/depthai_ros_driver' with build type 'ament_cmake'
+[48.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/depthai-ros/depthai_ros_driver'
+[48.566s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.566s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.567s] WARNING:colcon.colcon_core.shell:The following packages are in the workspace but haven't been built:
+- depthai_examples
+They are being used from the following locations instead:
+- /opt/ros/jazzy
+To suppress this warning ignore these packages in the workspace:
+--packages-ignore depthai_examples
+[48.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_ros_driver -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_ros_driver
+[49.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_ros_driver -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_ros_driver
+[49.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_ros_driver -- -j12 -l12
+[90.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_ros_driver -- -j12 -l12
+[90.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_ros_driver
+[90.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_driver)
+[90.324s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver' for CMake module files
+[90.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_ros_driver
+[90.327s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver' for CMake config files
+[90.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'cmake_prefix_path')
+[90.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.ps1'
+[90.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.dsv'
+[90.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.sh'
+[90.339s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/lib'
+[90.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'ld_library_path_lib')
+[90.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.ps1'
+[90.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.dsv'
+[90.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.sh'
+[90.341s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/bin'
+[90.342s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/lib/pkgconfig/depthai_ros_driver.pc'
+[90.345s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages'
+[90.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'pythonpath')
+[90.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/pythonpath.ps1'
+[90.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/pythonpath.dsv'
+[90.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/pythonpath.sh'
+[90.348s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/bin'
+[90.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.ps1'
+[90.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv'
+[90.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.sh'
+[90.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.bash'
+[90.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.zsh'
+[90.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_ros_driver/share/colcon-core/packages/depthai_ros_driver)
+[90.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_driver)
+[90.354s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver' for CMake module files
+[90.354s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver' for CMake config files
+[90.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'cmake_prefix_path')
+[90.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.ps1'
+[90.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.dsv'
+[90.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.sh'
+[90.355s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/lib'
+[90.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'ld_library_path_lib')
+[90.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.ps1'
+[90.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.dsv'
+[90.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.sh'
+[90.356s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/bin'
+[90.356s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/lib/pkgconfig/depthai_ros_driver.pc'
+[90.356s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages'
+[90.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'pythonpath')
+[90.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/pythonpath.ps1'
+[90.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/pythonpath.dsv'
+[90.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/hook/pythonpath.sh'
+[90.357s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai_ros_driver/bin'
+[90.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.ps1'
+[90.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv'
+[90.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.sh'
+[90.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.bash'
+[90.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.zsh'
+[90.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai_ros_driver/share/colcon-core/packages/depthai_ros_driver)
+[90.360s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai_ros_driver' finished with '0'
+[90.360s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai-ros'
+[90.361s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/depthai-ros/depthai-ros' with build type 'ament_cmake'
+[90.361s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/depthai-ros/depthai-ros'
+[90.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[90.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[90.370s] WARNING:colcon.colcon_core.shell:The following packages are in the workspace but haven't been built:
+- depthai_examples
+They are being used from the following locations instead:
+- /opt/ros/jazzy
+To suppress this warning ignore these packages in the workspace:
+--packages-ignore depthai_examples
+[90.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai-ros': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_driver/lib:/home/raju/igv/install/depthai_filters/lib:/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages:/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai-ros -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai-ros
+[91.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai-ros' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_driver/lib:/home/raju/igv/install/depthai_filters/lib:/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages:/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai-ros -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai-ros
+[91.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai-ros': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_driver/lib:/home/raju/igv/install/depthai_filters/lib:/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages:/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai-ros -- -j12 -l12
+[91.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai-ros' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_driver/lib:/home/raju/igv/install/depthai_filters/lib:/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages:/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai-ros -- -j12 -l12
+[91.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/depthai-ros': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_driver/lib:/home/raju/igv/install/depthai_filters/lib:/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages:/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai-ros
+[91.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai-ros)
+[91.075s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros' for CMake module files
+[91.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/depthai-ros' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_driver:/home/raju/igv/install/depthai_filters:/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_driver/lib:/home/raju/igv/install/depthai_filters/lib:/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages:/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai-ros
+[91.075s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros' for CMake config files
+[91.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai-ros', 'cmake_prefix_path')
+[91.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.ps1'
+[91.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.dsv'
+[91.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.sh'
+[91.076s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros/bin'
+[91.076s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros/lib/pkgconfig/depthai-ros.pc'
+[91.077s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros/lib/python3.12/site-packages'
+[91.077s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros/bin'
+[91.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.ps1'
+[91.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.dsv'
+[91.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.sh'
+[91.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.bash'
+[91.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.zsh'
+[91.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai-ros/share/colcon-core/packages/depthai-ros)
+[91.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai-ros)
+[91.079s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros' for CMake module files
+[91.079s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros' for CMake config files
+[91.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai-ros', 'cmake_prefix_path')
+[91.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.ps1'
+[91.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.dsv'
+[91.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.sh'
+[91.080s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros/bin'
+[91.080s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros/lib/pkgconfig/depthai-ros.pc'
+[91.080s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros/lib/python3.12/site-packages'
+[91.080s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/depthai-ros/bin'
+[91.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.ps1'
+[91.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.dsv'
+[91.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.sh'
+[91.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.bash'
+[91.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/depthai-ros/share/depthai-ros/package.zsh'
+[91.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/depthai-ros/share/colcon-core/packages/depthai-ros)
+[91.082s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'depthai-ros' finished with '0'
+[91.082s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[91.083s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[91.084s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[91.116s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[91.117s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[91.117s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[91.158s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[91.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raju/igv/install/local_setup.ps1'
+[91.160s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raju/igv/install/_local_setup_util_ps1.py'
+[91.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raju/igv/install/setup.ps1'
+[91.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raju/igv/install/local_setup.sh'
+[91.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raju/igv/install/_local_setup_util_sh.py'
+[91.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raju/igv/install/setup.sh'
+[91.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raju/igv/install/local_setup.bash'
+[91.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raju/igv/install/setup.bash'
+[91.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raju/igv/install/local_setup.zsh'
+[91.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raju/igv/install/setup.zsh'

@@ -1,0 +1,281 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'igv_bringup', '--symlink-install']
+[0.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['igv_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7913939a2930>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7913939a2630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7913939a2630>>, mixin_verb=('build',))
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.085s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raju/igv'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ros'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['cmake', 'python']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'cmake'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['python_setup_py']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python_setup_py'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_examples' with type 'ros.ament_cmake' and name 'depthai_examples'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/igv' with type 'ros.ament_python' and name 'igv'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_bringup) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/igv_bringup' with type 'ros.ament_cmake' and name 'igv_bringup'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/igv_description) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/igv_description' with type 'ros.ament_cmake' and name 'igv_description'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_descriptions' in 'src/depthai-ros/depthai_descriptions'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_ros_msgs' in 'src/depthai-ros/depthai_ros_msgs'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'igv' in 'src/igv'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'igv_description' in 'src/igv_description'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_ros2_driver' in 'src/ydlidar_ros2_driver'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_sdk' in 'src/YDLidar-SDK'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_bridge' in 'src/depthai-ros/depthai_bridge'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_filters' in 'src/depthai-ros/depthai_filters'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_examples' in 'src/depthai-ros/depthai_examples'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai_ros_driver' in 'src/depthai-ros/depthai_ros_driver'
+[0.133s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai-ros' in 'src/depthai-ros/depthai-ros'
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.135s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/raju/igv/install
+[0.135s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/raju/hs_ws/install
+[0.135s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/raju/igv_ws/install
+[0.136s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 410 installed packages in /opt/ros/jazzy
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'igv_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'igv_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raju/igv/build/igv_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raju/igv/install/igv_bringup', 'merge_install': False, 'path': '/home/raju/igv/src/igv_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raju/igv/src/igv_bringup' with build type 'ament_cmake'
+[0.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raju/igv/src/igv_bringup'
+[0.170s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/igv_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/igv_bringup
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/igv_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/igv_bringup
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/igv_bringup -- -j12 -l12
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/igv_bringup -- -j12 -l12
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raju/igv/build/igv_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/igv_bringup
+[0.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(igv_bringup)
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raju/igv/build/igv_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/igv_bringup
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup' for CMake module files
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup' for CMake config files
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('igv_bringup', 'cmake_prefix_path')
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.sh'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/bin'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/lib/pkgconfig/igv_bringup.pc'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/lib/python3.12/site-packages'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/bin'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.sh'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.bash'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.zsh'
+[0.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/igv_bringup/share/colcon-core/packages/igv_bringup)
+[0.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(igv_bringup)
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup' for CMake module files
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('igv_bringup', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.ps1'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raju/igv/install/igv_bringup/share/igv_bringup/hook/cmake_prefix_path.sh'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/bin'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/lib/pkgconfig/igv_bringup.pc'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/lib/python3.12/site-packages'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/raju/igv/install/igv_bringup/bin'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.sh'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.bash'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/raju/igv/install/igv_bringup/share/igv_bringup/package.zsh'
+[0.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raju/igv/install/igv_bringup/share/colcon-core/packages/igv_bringup)
+[0.595s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.595s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.595s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.595s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.609s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.617s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raju/igv/install/local_setup.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raju/igv/install/_local_setup_util_ps1.py'
+[0.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raju/igv/install/setup.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raju/igv/install/local_setup.sh'
+[0.620s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raju/igv/install/_local_setup_util_sh.py'
+[0.620s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raju/igv/install/setup.sh'
+[0.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raju/igv/install/local_setup.bash'
+[0.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raju/igv/install/setup.bash'
+[0.622s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raju/igv/install/local_setup.zsh'
+[0.622s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raju/igv/install/setup.zsh'

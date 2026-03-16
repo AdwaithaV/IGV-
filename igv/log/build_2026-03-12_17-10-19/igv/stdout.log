@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/igv/igv.egg-info/PKG-INFO
+writing dependency_links to ../../build/igv/igv.egg-info/dependency_links.txt
+writing entry points to ../../build/igv/igv.egg-info/entry_points.txt
+writing requirements to ../../build/igv/igv.egg-info/requires.txt
+writing top-level names to ../../build/igv/igv.egg-info/top_level.txt
+reading manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+writing manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/raju/igv/install/igv/lib/python3.12/site-packages/igv-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/igv/igv.egg-info to /home/raju/igv/install/igv/lib/python3.12/site-packages/igv-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_node script to /home/raju/igv/install/igv/lib/igv
+Installing fusion script to /home/raju/igv/install/igv/lib/igv
+Installing lidar_filter script to /home/raju/igv/install/igv/lib/igv
+Installing oak_test script to /home/raju/igv/install/igv/lib/igv
+Installing odom_node script to /home/raju/igv/install/igv/lib/igv
+Installing path_coordinates_node script to /home/raju/igv/install/igv/lib/igv
+Installing qr_code_node script to /home/raju/igv/install/igv/lib/igv
+Installing remap_scan script to /home/raju/igv/install/igv/lib/igv
+Installing terrian script to /home/raju/igv/install/igv/lib/igv
+Installing velocity_tune script to /home/raju/igv/install/igv/lib/igv
+Installing waypoint_node script to /home/raju/igv/install/igv/lib/igv
+writing list of installed files to '/home/raju/igv/build/igv/install.log'

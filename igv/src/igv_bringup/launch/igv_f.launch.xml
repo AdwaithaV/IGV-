@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="igv" exec="camera_node" name="camera_node" output="screen"/>
+    <node pkg="igv" exec="path_coordinates_node" name="path_coordinates_node" output="screen"/>
+    <node pkg="igv" exec="odom_node" name="odom_node" output="screen"/>
+    <node pkg="igv" exec="qr_code_node" name="qr_code_node" output="screen"/>
+</launch>

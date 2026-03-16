@@ -1,0 +1,15 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Fallback name="MainFallback">
+      <Sequence name="PlanAndExec">
+        <ComputePathToPose name="ComputePath" />
+        <FollowPath name="FollowPath" />
+      </Sequence>
+      <Sequence name="RecoverySequence">
+        <ClearCostmapAroundRobot name="clear" />
+        <Spin name="spin_recover" />
+        <BackUp name="back_recover" />
+      </Sequence>
+    </Fallback>
+  </BehaviorTree>
+</root>

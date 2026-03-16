@@ -1,0 +1,11 @@
+<?xml version ="1.0"?>
+<robot name="igv" xmlns:xacro="https://www.ros.org/wiki/xacro">
+
+   <xacro:include filename="materials.xacro"/>  
+   <xacro:include filename="str.xacro"/>
+   <xacro:include filename="plugins.xacro"/>
+   <!-- <xacro:include filename="camera.xacro"/> -->
+
+   
+
+</robot>

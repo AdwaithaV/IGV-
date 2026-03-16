@@ -1,0 +1,87 @@
+[0.007s] Invoking command in '/home/raju/igv/build/depthai_filters': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_filters -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_filters
+[0.055s] -- The CXX compiler identification is GNU 13.3.0
+[0.087s] -- The C compiler identification is GNU 13.3.0
+[0.104s] -- Detecting CXX compiler ABI info
+[0.184s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.195s] -- Detecting CXX compile features
+[0.195s] -- Detecting CXX compile features - done
+[0.203s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.286s] -- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.387s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.541s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.549s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.653s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.655s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.716s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.731s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.746s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.901s] -- Configuring done (0.9s)
+[0.912s] -- Generating done (0.0s)
+[0.915s] -- Build files have been written to: /home/raju/igv/build/depthai_filters
+[0.923s] Invoked command in '/home/raju/igv/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_filters -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_filters
+[0.924s] Invoking command in '/home/raju/igv/build/depthai_filters': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_filters -- -j12 -l12
+[0.967s] [ 22%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o[0m
+[0.967s] [ 22%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o[0m
+[0.967s] [ 33%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o[0m
+[0.967s] [ 44%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o[0m
+[0.968s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o[0m
+[0.968s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o[0m
+[0.968s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o[0m
+[0.968s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o[0m
+[17.595s] [100%] [32m[1mLinking CXX shared library libdepthai_filters.so[0m
+[18.785s] [100%] Built target depthai_filters
+[18.794s] Invoked command in '/home/raju/igv/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_filters -- -j12 -l12
+[18.795s] Invoking command in '/home/raju/igv/build/depthai_filters': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_filters
+[18.800s] -- Install configuration: ""
+[18.800s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch
+[18.800s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py
+[18.800s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py
+[18.800s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py
+[18.800s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch/thermal_temp.launch.py
+[18.800s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch/example_feature_3d.launch.py
+[18.800s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch/spatial_bb.launch.py
+[18.800s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py
+[18.801s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/launch/example_feature_tracker.launch.py
+[18.801s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/config
+[18.801s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/config/wls.yaml
+[18.801s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml
+[18.801s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/config/detection.yaml
+[18.801s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/config/spatial_bb.yaml
+[18.801s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/config/feature_tracker.yaml
+[18.801s] -- Installing: /home/raju/igv/install/depthai_filters/lib/libdepthai_filters.so
+[18.811s] -- Set non-toolchain portion of runtime path of "/home/raju/igv/install/depthai_filters/lib/libdepthai_filters.so" to ""
+[18.811s] -- Installing: /home/raju/igv/install/depthai_filters/include
+[18.811s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters
+[18.811s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters/thermal_temp.hpp
+[18.811s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters/spatial_bb.hpp
+[18.811s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters/wls_filter.hpp
+[18.811s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters/features_3d.hpp
+[18.811s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters/utils.hpp
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/environment/path.sh
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/environment/path.dsv
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/local_setup.bash
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/local_setup.sh
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/local_setup.zsh
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/local_setup.dsv
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/package.dsv
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake
+[18.812s] -- Installing: /home/raju/igv/install/depthai_filters/share/depthai_filters/package.xml
+[18.814s] Invoked command in '/home/raju/igv/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_ros_msgs:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_filters

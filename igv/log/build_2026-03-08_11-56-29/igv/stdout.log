@@ -1,0 +1,90 @@
+running egg_info
+creating ../../build/igv/igv.egg-info
+writing ../../build/igv/igv.egg-info/PKG-INFO
+writing dependency_links to ../../build/igv/igv.egg-info/dependency_links.txt
+writing entry points to ../../build/igv/igv.egg-info/entry_points.txt
+writing requirements to ../../build/igv/igv.egg-info/requires.txt
+writing top-level names to ../../build/igv/igv.egg-info/top_level.txt
+writing manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+reading manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+writing manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raju/igv/build/igv/build
+creating /home/raju/igv/build/igv/build/lib
+creating /home/raju/igv/build/igv/build/lib/igv
+copying igv/lidar_filter.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/oak_test.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/odometry.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/terrian_lidar_filter.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/scan_remap.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/sensor_fusion.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/line_following_f.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/velocity_tune.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/terrian_detection.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/obstacle_camera.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/camera.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/__init__.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/qr.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/waypoints.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/line_follow.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/line_follow_c.py -> /home/raju/igv/build/igv/build/lib/igv
+copying igv/ekf.py -> /home/raju/igv/build/igv/build/lib/igv
+running install
+running install_lib
+creating /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/lidar_filter.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/oak_test.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/odometry.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/terrian_lidar_filter.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/scan_remap.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/sensor_fusion.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/line_following_f.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/velocity_tune.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/terrian_detection.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/obstacle_camera.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/camera.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/__init__.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/qr.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/waypoints.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/line_follow.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/line_follow_c.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+copying /home/raju/igv/build/igv/build/lib/igv/ekf.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/lidar_filter.py to lidar_filter.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/oak_test.py to oak_test.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/odometry.py to odometry.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/terrian_lidar_filter.py to terrian_lidar_filter.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/scan_remap.py to scan_remap.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/sensor_fusion.py to sensor_fusion.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/line_following_f.py to line_following_f.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/velocity_tune.py to velocity_tune.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/terrian_detection.py to terrian_detection.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/obstacle_camera.py to obstacle_camera.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/camera.py to camera.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/qr.py to qr.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/waypoints.py to waypoints.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/line_follow.py to line_follow.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/line_follow_c.py to line_follow_c.cpython-312.pyc
+byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/ekf.py to ekf.cpython-312.pyc
+running install_data
+creating /home/raju/igv/install/igv/share/ament_index
+creating /home/raju/igv/install/igv/share/ament_index/resource_index
+creating /home/raju/igv/install/igv/share/ament_index/resource_index/packages
+copying resource/igv -> /home/raju/igv/install/igv/share/ament_index/resource_index/packages
+copying package.xml -> /home/raju/igv/install/igv/share/igv
+running install_egg_info
+Copying ../../build/igv/igv.egg-info to /home/raju/igv/install/igv/lib/python3.12/site-packages/igv-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_node script to /home/raju/igv/install/igv/lib/igv
+Installing fusion script to /home/raju/igv/install/igv/lib/igv
+Installing lidar_filter script to /home/raju/igv/install/igv/lib/igv
+Installing oak_test script to /home/raju/igv/install/igv/lib/igv
+Installing odom_node script to /home/raju/igv/install/igv/lib/igv
+Installing path_coordinates_node script to /home/raju/igv/install/igv/lib/igv
+Installing qr_code_node script to /home/raju/igv/install/igv/lib/igv
+Installing remap_scan script to /home/raju/igv/install/igv/lib/igv
+Installing terrian script to /home/raju/igv/install/igv/lib/igv
+Installing velocity_tune script to /home/raju/igv/install/igv/lib/igv
+Installing waypoint_node script to /home/raju/igv/install/igv/lib/igv
+writing list of installed files to '/home/raju/igv/build/igv/install.log'

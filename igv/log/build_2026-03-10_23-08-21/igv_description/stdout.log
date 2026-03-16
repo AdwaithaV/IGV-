@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/raju/igv/build/igv_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/rviz/urdf.rviz
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/urdf/igv.urdf.xacro
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/urdf/materials.xacro
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/urdf/plugins.xacro
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/urdf/str.xacro
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/launch/igv_d.launch.xml
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/lifecycle.yaml
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/nav2.yaml
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/ros_gz_bridge.yaml
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/slam.yaml
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/twist_mux.yaml
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/models/test_room/meshes/bank_world.stl
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/models/test_room/meshes/empty_room.stl
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/models/test_room/model.config
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/models/test_room/model.sdf
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/worlds/test_world.sdf
+-- Symlinking: /home/raju/igv/install/igv_description/share/ament_index/resource_index/package_run_dependencies/igv_description
+-- Symlinking: /home/raju/igv/install/igv_description/share/ament_index/resource_index/parent_prefix_path/igv_description
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/environment/path.sh
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/environment/path.dsv
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/local_setup.bash
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/local_setup.sh
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/local_setup.zsh
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/local_setup.dsv
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/package.dsv
+-- Symlinking: /home/raju/igv/install/igv_description/share/ament_index/resource_index/packages/igv_description
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/cmake/igv_descriptionConfig.cmake
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/cmake/igv_descriptionConfig-version.cmake
+-- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/package.xml

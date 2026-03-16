@@ -1,0 +1,221 @@
+[0.009s] Invoking command in '/home/raju/igv/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_ros_driver -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_ros_driver
+[0.049s] -- The C compiler identification is GNU 13.3.0
+[0.092s] -- The CXX compiler identification is GNU 13.3.0
+[0.105s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.289s] -- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.390s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.552s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.560s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.632s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.691s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.706s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.725s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.966s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.101s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.102s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.102s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.173s] -- Configuring done (1.2s)
+[1.209s] -- Generating done (0.0s)
+[1.219s] -- Build files have been written to: /home/raju/igv/build/depthai_ros_driver
+[1.229s] Invoked command in '/home/raju/igv/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raju/igv/src/depthai-ros/depthai_ros_driver -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/depthai_ros_driver
+[1.229s] Invoking command in '/home/raju/igv/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_ros_driver -- -j12 -l12
+[1.277s] [  2%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/base_node.cpp.o[0m
+[1.277s] [  5%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/img_pub.cpp.o[0m
+[1.277s] [  8%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cpp.o[0m
+[1.277s] [ 17%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/utils.cpp.o[0m
+[1.277s] [ 17%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sys_logger.cpp.o[0m
+[1.277s] [ 17%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/imu_param_handler.cpp.o[0m
+[1.277s] [ 20%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/sensor_param_handler.cpp.o[0m
+[1.277s] [ 25%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/feature_tracker_param_handler.cpp.o[0m
+[1.277s] [ 25%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/stereo_param_handler.cpp.o[0m
+[1.278s] [ 28%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/camera_param_handler.cpp.o[0m
+[1.278s] [ 31%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/nn_param_handler.cpp.o[0m
+[1.285s] [ 31%] Built target ament_cmake_python_copy_depthai_ros_driver
+[1.293s] [ 34%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/tof_param_handler.cpp.o[0m
+[7.111s] running egg_info
+[7.116s] creating depthai_ros_driver.egg-info
+[7.135s] writing depthai_ros_driver.egg-info/PKG-INFO
+[7.135s] writing dependency_links to depthai_ros_driver.egg-info/dependency_links.txt
+[7.135s] writing top-level names to depthai_ros_driver.egg-info/top_level.txt
+[7.135s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[7.202s] reading manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[7.202s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[7.248s] [ 37%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/pipeline_gen_param_handler.cpp.o[0m
+[7.264s] [ 37%] Built target ament_cmake_python_build_depthai_ros_driver_egg
+[7.277s] [ 40%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/sync_param_handler.cpp.o[0m
+[12.274s] [ 42%] [32m[1mLinking CXX shared library libdepthai_ros_driver_common.so[0m
+[12.759s] [ 42%] Built target depthai_ros_driver_common
+[12.779s] [ 45%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/spatial_nn_wrapper.cpp.o[0m
+[12.779s] [ 48%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/segmentation.cpp.o[0m
+[12.779s] [ 51%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/nn_wrapper.cpp.o[0m
+[12.779s] [ 54%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/rgb.cpp.o[0m
+[12.779s] [ 57%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/mono.cpp.o[0m
+[12.780s] [ 65%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/feature_tracker.cpp.o[0m
+[12.780s] [ 65%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.o[0m
+[12.780s] [ 65%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/imu.cpp.o[0m
+[12.781s] [ 68%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sensor_wrapper.cpp.o[0m
+[12.781s] [ 71%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o[0m
+[12.781s] [ 74%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o[0m
+[12.784s] [ 77%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o[0m
+[27.237s] [ 80%] [32m[1mLinking CXX shared library libdepthai_ros_driver_nn_nodes.so[0m
+[27.882s] [ 80%] Built target depthai_ros_driver_nn_nodes
+[28.096s] [ 82%] [32m[1mLinking CXX shared library libdepthai_ros_driver_sensor_nodes.so[0m
+[28.777s] [ 82%] Built target depthai_ros_driver_sensor_nodes
+[28.798s] [ 85%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/pipeline/base_types.cpp.o[0m
+[28.800s] [ 91%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/pipeline/pipeline_generator.cpp.o[0m
+[28.800s] [ 91%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/camera.cpp.o[0m
+[37.168s] [ 94%] [32m[1mLinking CXX shared library libdepthai_ros_driver.so[0m
+[38.057s] [ 94%] Built target depthai_ros_driver
+[38.073s] [ 97%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o[0m
+[41.052s] [100%] [32m[1mLinking CXX executable camera_node[0m
+[41.594s] [100%] Built target camera_node
+[41.638s] Invoked command in '/home/raju/igv/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raju/igv/build/depthai_ros_driver -- -j12 -l12
+[41.664s] Invoking command in '/home/raju/igv/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_ros_driver
+[41.678s] -- Install configuration: ""
+[41.678s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/plugins.xml
+[41.679s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.sh
+[41.679s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.dsv
+[41.679s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch
+[41.679s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/sr_poe_rgbd_pcl.launch.py
+[41.680s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/calibration.launch.py
+[41.680s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_segmentation.launch.py
+[41.680s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/rgbd_pcl.launch.py
+[41.680s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera.launch.py
+[41.680s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/pointcloud.launch.py
+[41.681s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/stereo_from_rosbag.launch.py
+[41.681s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/rtabmap.launch.py
+[41.681s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_multicam.launch.py
+[41.681s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/oak_t.launch.py
+[41.682s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera_as_part_of_a_robot.launch.py
+[41.682s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_marker_publish.launch.py
+[41.682s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/launch/sr_rgbd_pcl.launch.py
+[41.682s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config
+[41.682s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_d_sr.yaml
+[41.683s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/rgbd.yaml
+[41.683s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration
+[41.683s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/left.yaml
+[41.683s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/rgb.yaml
+[41.683s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/right.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/stereo_from_rosbag.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/nn
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/segmentation.json
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/mobilenet.json
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/yolo.json
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/camera.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/low_bandwidth.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/sr_poe_rgbd.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/pcl.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/isaac_vslam.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/multicam.rviz
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/rgbd.rviz
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/segmentation.rviz
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_d_pro_w.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration.yaml
+[41.684s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/segmentation.yaml
+[41.685s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/sr_rgbd.yaml
+[41.685s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_t.yaml
+[41.685s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/multicam_example.yaml
+[41.685s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/config/spatial_yolo.yaml
+[41.685s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/libdepthai_ros_driver.so
+[41.689s] -- Set non-toolchain portion of runtime path of "/home/raju/igv/install/depthai_ros_driver/lib/libdepthai_ros_driver.so" to ""
+[41.689s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so
+[41.694s] -- Set non-toolchain portion of runtime path of "/home/raju/igv/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so" to ""
+[41.694s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so
+[41.696s] -- Set non-toolchain portion of runtime path of "/home/raju/igv/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so" to ""
+[41.696s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so
+[41.702s] -- Set non-toolchain portion of runtime path of "/home/raju/igv/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so" to ""
+[41.702s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets.cmake
+[41.702s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets-noconfig.cmake
+[41.702s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/depthai_ros_driver/camera_node
+[41.702s] -- Set non-toolchain portion of runtime path of "/home/raju/igv/install/depthai_ros_driver/lib/depthai_ros_driver/camera_node" to ""
+[41.702s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.sh
+[41.702s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.dsv
+[41.702s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver-2.12.2-py3.12.egg-info
+[41.702s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver-2.12.2-py3.12.egg-info/dependency_links.txt
+[41.703s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver-2.12.2-py3.12.egg-info/top_level.txt
+[41.703s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver-2.12.2-py3.12.egg-info/SOURCES.txt
+[41.703s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver-2.12.2-py3.12.egg-info/PKG-INFO
+[41.703s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver
+[41.703s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver/__init__.py
+[41.741s] Listing '/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver'...
+[41.741s] Compiling '/home/raju/igv/install/depthai_ros_driver/lib/python3.12/site-packages/depthai_ros_driver/__init__.py'...
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/lib/depthai_ros_driver/obj_pub.py
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/pipeline
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_types.hpp
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_pipeline.hpp
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/pipeline_generator.hpp
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/base_node.hpp
+[41.745s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/segmentation.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/spatial_nn_wrapper.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/detection.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_wrapper.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_helpers.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/spatial_detection.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sys_logger.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/stereo.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_helpers.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/rgb.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/img_pub.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/imu.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/stereo.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/thermal.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/feature_tracker.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/tof.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_wrapper.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sync.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/mono.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/pipeline_gen_param_handler.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/tof_param_handler.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/nn_param_handler.hpp
+[41.746s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/camera_param_handler.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/stereo_param_handler.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/base_param_handler.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/imu_param_handler.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/sync_param_handler.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/sensor_param_handler.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/feature_tracker_param_handler.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/camera.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/include/depthai_ros_driver/utils.hpp
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/ament_index/resource_index/package_run_dependencies/depthai_ros_driver
+[41.747s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/ament_index/resource_index/parent_prefix_path/depthai_ros_driver
+[41.748s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/environment/ament_prefix_path.sh
+[41.748s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/environment/ament_prefix_path.dsv
+[41.748s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/environment/path.sh
+[41.748s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/environment/path.dsv
+[41.748s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.bash
+[41.748s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.sh
+[41.748s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.zsh
+[41.748s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.dsv
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/ament_index/resource_index/packages/depthai_ros_driver
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/ament_index/resource_index/depthai_ros_driver__pluginlib__plugin/depthai_ros_driver
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/ament_index/resource_index/rclcpp_components/depthai_ros_driver
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport.cmake
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport-noconfig.cmake
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_targets-extras.cmake
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.749s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverConfig.cmake
+[41.750s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverConfig-version.cmake
+[41.750s] -- Installing: /home/raju/igv/install/depthai_ros_driver/share/depthai_ros_driver/package.xml
+[41.758s] Invoked command in '/home/raju/igv/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raju/igv/install/depthai_bridge:/home/raju/igv/install/depthai_ros_msgs:/home/raju/igv/install/depthai_descriptions:/usr/local:/home/raju/hs_ws/install/hs_test_:/home/raju/igv_ws/install/ydlidar_ros2_driver:/home/raju/igv_ws/install/igv_description:/home/raju/igv_ws/install/igv_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/raju/igv/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/raju/igv/install/depthai_bridge/lib:/home/raju/igv/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/install/depthai_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raju/igv/build/depthai_ros_driver

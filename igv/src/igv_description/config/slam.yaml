@@ -1,0 +1,59 @@
+# slam.yaml
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: false
+
+    # frames
+    map_frame: "map"
+    odom_frame: "odom"
+    base_frame: "base_link"       # change if your robot uses a different base frame
+
+    # operation: mapping mode (produce map while running navigation)
+    mode: "mapping"
+
+    # topics
+    scan_topic: "/scan"
+    odom_topic: "/odom"
+
+    # publishing / saving
+    map_update_interval: 0.8           # publish updated map often so Nav2 sees changes
+    pose_publish_period: 0.05
+    transform_publish_period: 0.05
+    map_save_period: 30.0              # autosave every 30s (safe for long mapping sessions)
+    map_file_name: "igv_map"
+
+    # map / resolution
+    map_resolution: 0.05               # good balance for navigation and obstacle handling
+    max_range: 30.0
+    min_laser_range: 0.05
+    max_laser_range: 30.0
+
+    # scan matching / robustness (helpful if odom is imperfect)
+    use_scan_matching: true
+    real_time_correlative_loop: true
+    correlative_search_range: 0.45
+    correlative_search_angle: 0.6
+    correlative_search_step_xy: 0.02
+    correlative_search_step_theta: 0.02
+
+    # odometry fusion (enable if you publish /odom from encoders/ekf)
+    use_odometry: true
+    odom_alpha1: 0.2
+    odom_alpha2: 0.2
+    odom_alpha3: 0.2
+    odom_alpha4: 0.2
+
+    # loop closure (improves global consistency)
+    loop_closure_max_distance: 1.5
+    loop_closure_min_score: 0.68
+
+    # performance tuning
+    scan_queue_size: 12
+    max_submaps_to_keep: 5
+    min_node_size: 0.05
+
+    # safety / debug
+    debug_slam: false
+
+    # ensure map_topic published with transient_local so Nav2 can latch map
+    publish_map_transient_local: true

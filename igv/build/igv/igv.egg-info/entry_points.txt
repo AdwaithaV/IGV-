@@ -1,0 +1,7 @@
+[console_scripts]
+camera_node = igv.camera:main
+fusion = igv.ekf:main
+path = igv.stage_1:main
+remap_scan = igv.scan_remap:main
+terrian = igv.terrian_detection:main
+velocity_tune = igv.behaivour:main

@@ -1,0 +1,29 @@
+twist_mux:
+  ros_parameters:
+    use_stamped: true # If your sources publish geometry_msgs/TwistStamped, set true; otherwise false for Twist.
+    output: "/mux_cmd_vel"
+    latch_output: false     # If true, the node will latch the last selected cmd until it times out.
+    topic_timeout_default: 0.5
+
+    topics:
+      
+      - name: "safety"
+        topic: "/safety_cmd_vel"
+        timeout: 0.2
+        priority: 100
+
+      - name: "obstacle_avoidance"
+        topic: "/obstacle_avoidance_cmd_vel"
+        timeout: 0.5
+        priority: 90
+
+      - name: "nav2"
+        topic: "/nav2_cmd_vel"
+        timeout: 0.5
+        priority: 80
+
+    locks:
+      - name: "teleop_lock"
+        topic: "/locks/teleop_lock"
+
+    debug: false

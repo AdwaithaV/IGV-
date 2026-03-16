@@ -1,0 +1,69 @@
+<launch>
+  <let name="urdf_path" value="$(find-pkg-share igv_description)/urdf/igv.urdf.xacro"/>
+  <let name="world_path" value="$(find-pkg-share igv_description)/worlds/test_world.sdf"/>
+  <let name="rviz_path" value="$(find-pkg-share igv_description)/rviz/urdf.rviz"/>
+  <let name="ros_gz_bridge_yaml" value="$(find-pkg-share igv_description)/config/ros_gz_bridge.yaml"/>
+  <let name="slam_yaml" value="$(find-pkg-share igv_description)/config/slam.yaml"/>
+  <let name="nav2_yaml" value="$(find-pkg-share igv_description)/config/nav2.yaml"/>
+
+  <set_env name="GZ_SIM_RESOURCE_PATH" value="$(find-pkg-share igv_description)/models"/>
+
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" output="screen">
+    <param name="robot_description" value="$(command 'xacro $(var urdf_path)')"/>
+    <param name="use_sim_time" value="true"/>
+  </node>
+  <node pkg="ros_gz_bridge" exec="parameter_bridge">
+    <param name="config_file" value="$(var ros_gz_bridge_yaml)"/>
+  </node>
+  <node pkg="nav2_lifecycle_manager"
+      exec="lifecycle_manager"
+      name="lifecycle_manager_slam"
+      output="screen">
+    <param name="use_sim_time" value="true"/>
+    <param name="autostart" value="true"/>
+    <param name="node_names" value="['slam_toolbox']"/>
+  </node>
+  
+  <node pkg="slam_toolbox" exec="async_slam_toolbox_node" name="slam_toolbox" output="screen">
+    <param from="$(var slam_yaml)"/>
+    <param name="use_sim_time" value="true"/>
+  </node>
+
+  <include file="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py">
+    <arg name="gz_args" value="-r $(var world_path)"/>
+  </include>
+
+
+  <node pkg="ros_gz_sim" exec="create" name="spawn_igv" output="screen"
+        args="-name igv -topic robot_description -z 0.2 -timeout 60"/>
+
+  <node pkg="nav2_lifecycle_manager"
+      exec="lifecycle_manager"
+      name="lifecycle_manager_navigation"
+      output="screen">
+      <param name="use_sim_time" value="true"/>
+      <param name="autostart" value="true"/>
+      <param name="node_names"
+         value="['planner_server',
+                 'controller_server',
+                 'bt_navigator',
+                 'behavior_server',
+                 'smoother_server',
+                 'global_costmap',
+                 'local_costmap']"/>
+  </node>
+  
+  <include file="$(find-pkg-share nav2_bringup)/launch/bringup_launch.py">
+    <arg name="use_sim_time" value="true"/>
+    <arg name="autostart" value="true"/>
+    <arg name="slam" value="False"/>
+    <arg name="use_localization" value="False"/>
+    <arg name="use_composition" value="False"/>
+    <arg name="params_file" value="$(var nav2_yaml)"/>
+    <!-- <arg name="slam_params_file" value="$(var slam_yaml)"/> -->
+  </include>
+
+  
+ 
+  <node pkg="rviz2" exec="rviz2" output="screen" args="-d $(var rviz_path)"/>
+</launch>

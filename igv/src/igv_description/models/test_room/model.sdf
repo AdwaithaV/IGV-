@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="test_room">
+    <static>true</static>
+
+    <link name="link">
+
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>1</ixx><iyy>1</iyy><izz>1</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://test_room/meshes/empty_room.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://test_room/meshes/empty_room.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

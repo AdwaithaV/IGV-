@@ -1,0 +1,12 @@
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/AutoFocusCtrl.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/HandLandmark.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/HandLandmarkArray.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/ImuWithMagneticField.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/TrackedFeature.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/TrackedFeatures.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/SpatialDetection.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/SpatialDetectionArray.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/TrackDetection2D.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/TrackDetection2DArray.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:srv/TriggerNamed.idl
+/home/raju/igv/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:srv/NormalizedImageCrop.idl

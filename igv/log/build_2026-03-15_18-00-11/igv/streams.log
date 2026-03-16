@@ -1,0 +1,41 @@
+[1.617s] Invoking command in '/home/raju/igv/src/igv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raju/igv/build/igv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raju/igv/install/igv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/igv build --build-base /home/raju/igv/build/igv/build install --record /home/raju/igv/build/igv/install.log --single-version-externally-managed install_data
+[2.133s] running egg_info
+[2.168s] writing ../../build/igv/igv.egg-info/PKG-INFO
+[2.168s] writing dependency_links to ../../build/igv/igv.egg-info/dependency_links.txt
+[2.168s] writing entry points to ../../build/igv/igv.egg-info/entry_points.txt
+[2.169s] writing requirements to ../../build/igv/igv.egg-info/requires.txt
+[2.169s] writing top-level names to ../../build/igv/igv.egg-info/top_level.txt
+[2.241s] reading manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+[2.243s] writing manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+[2.244s] running build
+[2.244s] running build_py
+[2.245s] copying igv/stage_1.py -> /home/raju/igv/build/igv/build/lib/igv
+[2.245s] copying igv/terrian_detection.py -> /home/raju/igv/build/igv/build/lib/igv
+[2.246s] copying igv/obstacle_camera.py -> /home/raju/igv/build/igv/build/lib/igv
+[2.246s] copying igv/camera.py -> /home/raju/igv/build/igv/build/lib/igv
+[2.247s] copying igv/behaivour.py -> /home/raju/igv/build/igv/build/lib/igv
+[2.247s] running install
+[2.261s] running install_lib
+[2.311s] copying /home/raju/igv/build/igv/build/lib/igv/stage_1.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+[2.311s] copying /home/raju/igv/build/igv/build/lib/igv/terrian_detection.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+[2.312s] copying /home/raju/igv/build/igv/build/lib/igv/obstacle_camera.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+[2.312s] copying /home/raju/igv/build/igv/build/lib/igv/camera.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+[2.312s] copying /home/raju/igv/build/igv/build/lib/igv/behaivour.py -> /home/raju/igv/install/igv/lib/python3.12/site-packages/igv
+[2.312s] byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/stage_1.py to stage_1.cpython-312.pyc
+[2.313s] byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/terrian_detection.py to terrian_detection.cpython-312.pyc
+[2.313s] byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/obstacle_camera.py to obstacle_camera.cpython-312.pyc
+[2.313s] byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/camera.py to camera.cpython-312.pyc
+[2.315s] byte-compiling /home/raju/igv/install/igv/lib/python3.12/site-packages/igv/behaivour.py to behaivour.cpython-312.pyc
+[2.317s] running install_data
+[2.317s] running install_egg_info
+[2.357s] removing '/home/raju/igv/install/igv/lib/python3.12/site-packages/igv-0.0.0-py3.12.egg-info' (and everything under it)
+[2.359s] Copying ../../build/igv/igv.egg-info to /home/raju/igv/install/igv/lib/python3.12/site-packages/igv-0.0.0-py3.12.egg-info
+[2.361s] running install_scripts
+[2.614s] Installing camera_node script to /home/raju/igv/install/igv/lib/igv
+[2.614s] Installing fusion script to /home/raju/igv/install/igv/lib/igv
+[2.615s] Installing path script to /home/raju/igv/install/igv/lib/igv
+[2.615s] Installing remap_scan script to /home/raju/igv/install/igv/lib/igv
+[2.616s] Installing terrian script to /home/raju/igv/install/igv/lib/igv
+[2.616s] Installing velocity_tune script to /home/raju/igv/install/igv/lib/igv
+[2.616s] writing list of installed files to '/home/raju/igv/build/igv/install.log'
+[2.693s] Invoked command in '/home/raju/igv/src/igv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raju/igv/build/igv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raju/igv/install/igv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/igv build --build-base /home/raju/igv/build/igv/build install --record /home/raju/igv/build/igv/install.log --single-version-externally-managed install_data

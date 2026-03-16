@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/home/raju/igv/build/igv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/igv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/igv_description
+[0.059s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.364s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.501s] -- Configuring done (0.5s)
+[0.508s] -- Generating done (0.0s)
+[0.510s] -- Build files have been written to: /home/raju/igv/build/igv_description
+[0.514s] Invoked command in '/home/raju/igv/build/igv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/raju/igv/src/igv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raju/igv/install/igv_description
+[0.517s] Invoking command in '/home/raju/igv/build/igv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/igv_description -- -j12 -l12
+[0.566s] Invoked command in '/home/raju/igv/build/igv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/raju/igv/build/igv_description -- -j12 -l12
+[0.577s] Invoking command in '/home/raju/igv/build/igv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/igv_description
+[0.587s] -- Install configuration: ""
+[0.588s] -- Execute custom install script
+[0.588s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/rviz/urdf.rviz
+[0.599s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/urdf/igv.urdf.xacro
+[0.611s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/urdf/materials.xacro
+[0.623s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/urdf/plugins.xacro
+[0.635s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/urdf/str.xacro
+[0.646s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/launch/igv_d.launch.xml
+[0.658s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/lifecycle.yaml
+[0.672s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/nav2.yaml
+[0.682s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/ros_gz_bridge.yaml
+[0.695s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/slam.yaml
+[0.705s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/config/twist_mux.yaml
+[0.720s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/models/test_room/meshes/bank_world.stl
+[0.730s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/models/test_room/meshes/empty_room.stl
+[0.741s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/models/test_room/model.config
+[0.750s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/models/test_room/model.sdf
+[0.762s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/worlds/test_world.sdf
+[0.773s] -- Symlinking: /home/raju/igv/install/igv_description/share/ament_index/resource_index/package_run_dependencies/igv_description
+[0.786s] -- Symlinking: /home/raju/igv/install/igv_description/share/ament_index/resource_index/parent_prefix_path/igv_description
+[0.797s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/environment/ament_prefix_path.sh
+[0.810s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/environment/ament_prefix_path.dsv
+[0.821s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/environment/path.sh
+[0.835s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/environment/path.dsv
+[0.847s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/local_setup.bash
+[0.859s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/local_setup.sh
+[0.873s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/local_setup.zsh
+[0.885s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/local_setup.dsv
+[0.897s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/package.dsv
+[0.907s] -- Symlinking: /home/raju/igv/install/igv_description/share/ament_index/resource_index/packages/igv_description
+[0.917s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/cmake/igv_descriptionConfig.cmake
+[0.928s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/cmake/igv_descriptionConfig-version.cmake
+[0.938s] -- Symlinking: /home/raju/igv/install/igv_description/share/igv_description/package.xml
+[0.952s] Invoked command in '/home/raju/igv/build/igv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raju/igv/install/igv:/home/raju/hs_ws/install/hs:/home/raju/igv_ws/install/igv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/raju/igv/build/igv_description

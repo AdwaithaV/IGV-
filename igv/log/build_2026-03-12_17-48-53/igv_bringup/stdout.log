@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/raju/igv/build/igv_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/launch/igv.launch.py
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/launch/igv_f.launch.xml
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/launch/igv_pf.launch.xml
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/ament_index/resource_index/package_run_dependencies/igv_bringup
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/ament_index/resource_index/parent_prefix_path/igv_bringup
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/environment/path.sh
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/environment/path.dsv
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/local_setup.bash
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/local_setup.sh
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/local_setup.zsh
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/local_setup.dsv
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/package.dsv
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/ament_index/resource_index/packages/igv_bringup
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/cmake/igv_bringupConfig.cmake
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/cmake/igv_bringupConfig-version.cmake
+-- Symlinking: /home/raju/igv/install/igv_bringup/share/igv_bringup/package.xml

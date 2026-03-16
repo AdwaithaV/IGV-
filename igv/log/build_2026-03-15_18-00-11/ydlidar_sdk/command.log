@@ -1,0 +1,4 @@
+Invoking command in '/home/raju/igv/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/raju/igv/build/ydlidar_sdk -- -j12 -l12
+Invoked command in '/home/raju/igv/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/raju/igv/build/ydlidar_sdk -- -j12 -l12
+Invoking command in '/home/raju/igv/build/ydlidar_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/raju/igv/build/ydlidar_sdk
+Invoked command in '/home/raju/igv/build/ydlidar_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/raju/igv/build/ydlidar_sdk

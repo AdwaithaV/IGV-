@@ -1,0 +1,4 @@
+source;share/igv_bringup/local_setup.bash
+source;share/igv_bringup/local_setup.dsv
+source;share/igv_bringup/local_setup.sh
+source;share/igv_bringup/local_setup.zsh

@@ -1,0 +1,31 @@
+[1.254s] Invoking command in '/home/raju/igv/src/igv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/build/igv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raju/igv/install/igv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/igv build --build-base /home/raju/igv/build/igv/build install --record /home/raju/igv/build/igv/install.log --single-version-externally-managed install_data
+[1.561s] running egg_info
+[1.581s] writing ../../build/igv/igv.egg-info/PKG-INFO
+[1.583s] writing dependency_links to ../../build/igv/igv.egg-info/dependency_links.txt
+[1.583s] writing entry points to ../../build/igv/igv.egg-info/entry_points.txt
+[1.583s] writing requirements to ../../build/igv/igv.egg-info/requires.txt
+[1.583s] writing top-level names to ../../build/igv/igv.egg-info/top_level.txt
+[1.625s] reading manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+[1.627s] writing manifest file '../../build/igv/igv.egg-info/SOURCES.txt'
+[1.627s] running build
+[1.627s] running build_py
+[1.628s] running install
+[1.636s] running install_lib
+[1.657s] running install_data
+[1.657s] running install_egg_info
+[1.680s] removing '/home/raju/igv/install/igv/lib/python3.12/site-packages/igv-0.0.0-py3.12.egg-info' (and everything under it)
+[1.680s] Copying ../../build/igv/igv.egg-info to /home/raju/igv/install/igv/lib/python3.12/site-packages/igv-0.0.0-py3.12.egg-info
+[1.680s] running install_scripts
+[1.830s] Installing camera_node script to /home/raju/igv/install/igv/lib/igv
+[1.833s] Installing fusion script to /home/raju/igv/install/igv/lib/igv
+[1.833s] Installing lidar_filter script to /home/raju/igv/install/igv/lib/igv
+[1.833s] Installing oak_test script to /home/raju/igv/install/igv/lib/igv
+[1.834s] Installing odom_node script to /home/raju/igv/install/igv/lib/igv
+[1.834s] Installing path_coordinates_node script to /home/raju/igv/install/igv/lib/igv
+[1.834s] Installing qr_code_node script to /home/raju/igv/install/igv/lib/igv
+[1.834s] Installing remap_scan script to /home/raju/igv/install/igv/lib/igv
+[1.834s] Installing terrian script to /home/raju/igv/install/igv/lib/igv
+[1.834s] Installing velocity_tune script to /home/raju/igv/install/igv/lib/igv
+[1.834s] Installing waypoint_node script to /home/raju/igv/install/igv/lib/igv
+[1.835s] writing list of installed files to '/home/raju/igv/build/igv/install.log'
+[1.869s] Invoked command in '/home/raju/igv/src/igv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/raju/igv/build/igv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raju/igv/install/igv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/igv build --build-base /home/raju/igv/build/igv/build install --record /home/raju/igv/build/igv/install.log --single-version-externally-managed install_data
